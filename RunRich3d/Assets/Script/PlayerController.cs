@@ -6,7 +6,7 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     private Rigidbody rb;
-    public float m_Speed;
+    public float m_Speed = 5f;
     private Touch touch;
     
     public float xAxis;
@@ -27,7 +27,7 @@ public class PlayerController : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody>();
-        m_Speed = 5f;
+        
         currentHealth = maxHealth;
         healthBar.SetMaxHealth(maxHealth);
         currentHealth_UI = currentHealth;
@@ -39,10 +39,11 @@ public class PlayerController : MonoBehaviour
         if (Input.touchCount > 0)
         {
             touch = Input.GetTouch(0);
-            //xAxis += touch.deltaPosition.x;
+            xAxis += touch.deltaPosition.x;
         }
-        //transform.position = new Vector3(transform.position.x + xAxis, transform.position.y, transform.position.z);
-        //float xAxis = Mathf.Clamp(xAxis, -5f, +5f);
+        transform.position = new Vector3(transform.position.x + xAxis, transform.position.y, transform.position.z);
+        xAxis = Mathf.Clamp(xAxis, -5f, +5f);
+        transform.position += transform.forward * Time.deltaTime * m_Speed;
         
         
 

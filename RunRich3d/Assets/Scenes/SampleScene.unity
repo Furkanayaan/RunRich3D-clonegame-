@@ -990,6 +990,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Speed: 5
+  xAxis: 0
   starSplash: {fileID: 2357954278423742109, guid: cfe51d44ce313dd4d835143f34066ca1, type: 3}
   wineSplash: {fileID: 2357954278423742109, guid: dfabab01ea2a3e349b3624179fbd3042, type: 3}
   maxHealth: 100
