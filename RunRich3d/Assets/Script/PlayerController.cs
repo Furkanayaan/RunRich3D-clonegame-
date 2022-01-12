@@ -9,6 +9,8 @@ public class PlayerController : MonoBehaviour
     public float m_Speed;
     private Touch touch;
     
+    public float xAxis;
+    
 
     public GameObject starSplash;
 
@@ -37,13 +39,12 @@ public class PlayerController : MonoBehaviour
         if (Input.touchCount > 0)
         {
             touch = Input.GetTouch(0);
-            
-            if (touch.phase == TouchPhase.Moved)
-            {
-                transform.position = new Vector3(transform.position.x + touch.deltaPosition.x * Time.deltaTime,
-                    transform.position.y, transform.position.z + touch.deltaPosition.y * Time.deltaTime).normalized;
-            }
+            //xAxis += touch.deltaPosition.x;
         }
+        //transform.position = new Vector3(transform.position.x + xAxis, transform.position.y, transform.position.z);
+        //float xAxis = Mathf.Clamp(xAxis, -5f, +5f);
+        
+        
 
         if (currentHealth_UI < currentHealth)
         {
