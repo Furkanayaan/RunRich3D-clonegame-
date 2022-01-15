@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using  UnityEngine.UI;
 
 public class PlayerController : MonoBehaviour
 {
@@ -24,6 +25,11 @@ public class PlayerController : MonoBehaviour
     public int currentHealth_UI;
 
     private bool isColliding;
+    [SerializeField] private Material myMaterial;
+
+    public GameObject uiObject_Rich;
+    public GameObject uiObject_Good;
+    public GameObject uiObject_Poor;
     
     
     void Start()
@@ -33,11 +39,13 @@ public class PlayerController : MonoBehaviour
         currentHealth = maxHealth;
         healthBar.SetMaxHealth(maxHealth);
         currentHealth_UI = currentHealth;
+        uiObject_Rich.SetActive(true);
     }
 
     // Update is called once per frame
     void Update()
     {
+        isColliding = false;
         if (Input.touchCount > 0)
         {
             Debug.Log(123456);
@@ -63,6 +71,30 @@ public class PlayerController : MonoBehaviour
         }
         
         healthBar.SetHealth(currentHealth_UI);
+
+        if (currentHealth >= 60 & currentHealth <= 100)
+        {
+            myMaterial.color = Color.green;
+            uiObject_Rich.SetActive(true);
+            uiObject_Good.SetActive(false);
+            uiObject_Poor.SetActive(false);
+        }
+        
+        if (currentHealth >= 30 & currentHealth < 60)
+        {
+            myMaterial.color = Color.yellow;
+            uiObject_Good.SetActive(true);
+            uiObject_Rich.SetActive(false);
+            uiObject_Poor.SetActive(false);
+        }
+        
+        if (currentHealth > 0 & currentHealth < 30)
+        {
+            myMaterial.color = Color.red;
+            uiObject_Poor.SetActive(true);
+            uiObject_Rich.SetActive(false);
+            uiObject_Good.SetActive(false);
+        }
         
 
         
@@ -95,6 +127,18 @@ public class PlayerController : MonoBehaviour
             Destroy(copy, 2f);
             Debug.Log(456);
             
+        }
+
+        if (other.gameObject.CompareTag("Door"))
+        {
+            GainMoney(10);
+            Destroy(other.GetComponent<BoxCollider>());
+        }
+
+        if (other.gameObject.CompareTag("Door1"))
+        {
+            LostMoney(10);
+            Destroy(other.GetComponent<BoxCollider>());
         }
         
     }
