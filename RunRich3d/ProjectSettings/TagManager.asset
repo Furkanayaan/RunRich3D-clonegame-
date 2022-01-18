@@ -8,6 +8,7 @@ TagManager:
   - Wine
   - Door
   - Door1
+  - Enemy
   layers:
   - Default
   - TransparentFX

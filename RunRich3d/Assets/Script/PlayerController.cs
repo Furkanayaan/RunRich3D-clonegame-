@@ -17,7 +17,10 @@ public class PlayerController : MonoBehaviour
 
     public GameObject wineSplash;
 
+    public GameObject enemySplash;
+
     public int maxHealth = 100;
+    
     public int currentHealth;
     
     public HealthBar healthBar;
@@ -30,6 +33,10 @@ public class PlayerController : MonoBehaviour
     public GameObject uiObject_Rich;
     public GameObject uiObject_Good;
     public GameObject uiObject_Poor;
+
+    
+    
+    
     
     
     void Start()
@@ -40,11 +47,13 @@ public class PlayerController : MonoBehaviour
         healthBar.SetMaxHealth(maxHealth);
         currentHealth_UI = currentHealth;
         uiObject_Rich.SetActive(true);
+        
     }
 
     // Update is called once per frame
     void Update()
     {
+        
         isColliding = false;
         if (Input.touchCount > 0)
         {
@@ -56,10 +65,11 @@ public class PlayerController : MonoBehaviour
         transform.position = new Vector3(xAxis, transform.position.y, transform.position.z) + (Vector3.forward * Time.deltaTime * m_Speed); 
         xAxis = Mathf.Clamp(xAxis, -4f, 4f);
         
-        
-        
-        
-        
+
+
+
+
+
 
         if (currentHealth_UI < currentHealth)
         {
@@ -72,7 +82,7 @@ public class PlayerController : MonoBehaviour
         
         healthBar.SetHealth(currentHealth_UI);
 
-        if (currentHealth >= 60 & currentHealth <= 100)
+        if (currentHealth > 60 & currentHealth <= 100)
         {
             myMaterial.color = Color.green;
             uiObject_Rich.SetActive(true);
@@ -80,7 +90,7 @@ public class PlayerController : MonoBehaviour
             uiObject_Poor.SetActive(false);
         }
         
-        if (currentHealth >= 30 & currentHealth < 60)
+        if (currentHealth > 30 & currentHealth <= 60)
         {
             myMaterial.color = Color.yellow;
             uiObject_Good.SetActive(true);
@@ -88,12 +98,19 @@ public class PlayerController : MonoBehaviour
             uiObject_Poor.SetActive(false);
         }
         
-        if (currentHealth > 0 & currentHealth < 30)
+        if (currentHealth > 0 & currentHealth <= 30)
         {
             myMaterial.color = Color.red;
             uiObject_Poor.SetActive(true);
             uiObject_Rich.SetActive(false);
             uiObject_Good.SetActive(false);
+        }
+
+        if (currentHealth == 0)
+        {
+            Destroy(gameObject);
+            //LevelManager.instance.Respawn();
+
         }
         
 
@@ -112,9 +129,12 @@ public class PlayerController : MonoBehaviour
             GameObject copy = Instantiate(starSplash, transform.position, Quaternion.identity);
             
             Destroy(other.gameObject, 0f);
-            GainMoney(20);
             Destroy(copy, 2f);
-            Debug.Log(123);
+            if (currentHealth <= 80)
+            {
+                GainMoney(20);
+            }
+            
             
 
         }
@@ -131,8 +151,11 @@ public class PlayerController : MonoBehaviour
 
         if (other.gameObject.CompareTag("Door"))
         {
-            GainMoney(10);
             Destroy(other.GetComponent<BoxCollider>());
+            if (currentHealth <= 90)
+            {
+                GainMoney(10);
+            }
         }
 
         if (other.gameObject.CompareTag("Door1"))
@@ -140,8 +163,19 @@ public class PlayerController : MonoBehaviour
             LostMoney(10);
             Destroy(other.GetComponent<BoxCollider>());
         }
+
+        if (other.gameObject.CompareTag("Enemy"))
+        {
+            GameObject copy = Instantiate(enemySplash, transform.position, Quaternion.identity);
+            Destroy(copy, 2f);
+            LostMoney(15);
+            Destroy(other.GetComponent<BoxCollider>());
+            
+        }
+        
         
     }
+    
     IEnumerator Reset()
     {
         yield return new WaitForEndOfFrame();

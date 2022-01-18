@@ -15,11 +15,11 @@ C:/Users/Asus/RunRich3d
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-53086
+63198
 Successfully changed project path to: C:/Users/Asus/RunRich3d
 C:/Users/Asus/RunRich3d
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 446.10 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 149.11 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.24f1 (79c78de19888)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity 2020.3.24f1/Editor/Data/Resources/UnitySubsystems
@@ -35,43 +35,2465 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity 2020.3.24f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity 2020.3.24f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity 2020.3.24f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56372
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56604
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity 2020.3.24f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.197754 seconds.
+Registered in 0.004453 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 84.60 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 117.02 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  5.660 seconds
+- Completed reload, in  1.428 seconds
 Domain Reload Profiling:
-	ReloadAssembly (5661ms)
-		BeginReloadAssembly (4027ms)
+	ReloadAssembly (1429ms)
+		BeginReloadAssembly (143ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (1173ms)
-			LoadAssemblies (4022ms)
+		EndReloadAssembly (1129ms)
+			LoadAssemblies (139ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (635ms)
+			SetupTypeCache (336ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (50ms)
-			SetupLoadedEditorAssemblies (295ms)
+			RebuildScriptCaches (64ms)
+			SetupLoadedEditorAssemblies (425ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
+				InitializePlatformSupportModulesInManaged (9ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (85ms)
-				BeforeProcessingInitializeOnLoad (21ms)
-				ProcessInitializeOnLoadAttributes (131ms)
-				ProcessInitializeOnLoadMethodAttributes (52ms)
+				RefreshPlugins (117ms)
+				BeforeProcessingInitializeOnLoad (24ms)
+				ProcessInitializeOnLoadAttributes (192ms)
+				ProcessInitializeOnLoadMethodAttributes (82ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 1.318066 seconds.
+Registered in 0.209244 seconds.
 Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.75 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Can't find custom attr constructor image: C:\Users\Asus\RunRich3d\Library\PackageCache\com.unity.ads@3.4.5\Editor\UnityEditor.Advertisements.dll mtoken: 0x0a00000f due to:  assembly:C:\Program Files\Unity 2020.3.24f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll type:UnityAPICompatibilityVersionAttribute member:void {0}(string,string[]) signature:.ctor
+Mono: successfully reloaded assembly
+- Completed reload, in  2.598 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2599ms)
+		BeginReloadAssembly (312ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (2100ms)
+			LoadAssemblies (290ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (693ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (125ms)
+			SetupLoadedEditorAssemblies (748ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (256ms)
+				ProcessInitializeOnLoadAttributes (401ms)
+				ProcessInitializeOnLoadMethodAttributes (56ms)
+				AfterProcessingInitializeOnLoad (21ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (18ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.21 seconds
+Refreshing native plugins compatible for Editor in 1.62 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2045 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.5 MB.
+System memory in use after: 90.6 MB.
+
+Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 2461.
+Total: 9.450000 ms (FindLiveObjects: 0.410000 ms CreateObjectMapping: 0.136500 ms MarkObjects: 8.597500 ms  DeleteObjects: 0.303000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Material/Enemy.mat
+  artifactKey: Guid(8c1f88a605553174b929f80180b8daae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/Enemy.mat using Guid(8c1f88a605553174b929f80180b8daae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '811a60b5215450819486a12f2ac32a60') in 1.201361 seconds 
+  Import took 1.217702 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 99.005272 seconds.
+  path: Assets/Script
+  artifactKey: Guid(81bdc196728f0a14283787ba52adfbc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script using Guid(81bdc196728f0a14283787ba52adfbc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a35885c64f3e98c354a5ad0868b6355') in 0.020222 seconds 
+  Import took 0.029136 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.650692 seconds.
+  path: Assets/Script/EnemyController.cs
+  artifactKey: Guid(88b702ec1c9dc80459abc8c4b2a87137) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/EnemyController.cs using Guid(88b702ec1c9dc80459abc8c4b2a87137) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c60ad8f76efc5f32b8d6243d0e57c6bb') in 0.081771 seconds 
+  Import took 0.095251 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.027342 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.79 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Can't find custom attr constructor image: C:\Users\Asus\RunRich3d\Library\PackageCache\com.unity.ads@3.4.5\Editor\UnityEditor.Advertisements.dll mtoken: 0x0a00000f due to:  assembly:C:\Program Files\Unity 2020.3.24f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll type:UnityAPICompatibilityVersionAttribute member:void {0}(string,string[]) signature:.ctor
+Mono: successfully reloaded assembly
+- Completed reload, in  2.817 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2817ms)
+		BeginReloadAssembly (256ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (14ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (72ms)
+		EndReloadAssembly (2321ms)
+			LoadAssemblies (291ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (731ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (118ms)
+			SetupLoadedEditorAssemblies (833ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (268ms)
+				ProcessInitializeOnLoadAttributes (497ms)
+				ProcessInitializeOnLoadMethodAttributes (29ms)
+				AfterProcessingInitializeOnLoad (18ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.04 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2012 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.8 MB.
+System memory in use after: 90.9 MB.
+
+Unloading 40 unused Assets to reduce memory usage. Loaded Objects now: 2504.
+Total: 6.524300 ms (FindLiveObjects: 0.475400 ms CreateObjectMapping: 0.251800 ms MarkObjects: 5.740600 ms  DeleteObjects: 0.054300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 12.118666 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '839a5d083c8338523565991a673f544f') in 0.098812 seconds 
+  Import took 0.108186 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 317.111948 seconds.
+  path: Assets/Script/EnemyController.cs
+  artifactKey: Guid(88b702ec1c9dc80459abc8c4b2a87137) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/EnemyController.cs using Guid(88b702ec1c9dc80459abc8c4b2a87137) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40652b6aaedb0f7e91035b759d8f107a') in 0.018051 seconds 
+  Import took 0.028680 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.027638 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.36 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Can't find custom attr constructor image: C:\Users\Asus\RunRich3d\Library\PackageCache\com.unity.ads@3.4.5\Editor\UnityEditor.Advertisements.dll mtoken: 0x0a00000f due to:  assembly:C:\Program Files\Unity 2020.3.24f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll type:UnityAPICompatibilityVersionAttribute member:void {0}(string,string[]) signature:.ctor
+Mono: successfully reloaded assembly
+- Completed reload, in  1.933 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1938ms)
+		BeginReloadAssembly (232ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (20ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (57ms)
+		EndReloadAssembly (1590ms)
+			LoadAssemblies (183ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (649ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (74ms)
+			SetupLoadedEditorAssemblies (519ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (170ms)
+				ProcessInitializeOnLoadAttributes (300ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (17ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.98 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2012 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.9 MB.
+System memory in use after: 91.0 MB.
+
+Unloading 41 unused Assets to reduce memory usage. Loaded Objects now: 2506.
+Total: 4.932100 ms (FindLiveObjects: 0.391900 ms CreateObjectMapping: 0.274900 ms MarkObjects: 4.222500 ms  DeleteObjects: 0.040500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.024611 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.58 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Can't find custom attr constructor image: C:\Users\Asus\RunRich3d\Library\PackageCache\com.unity.ads@3.4.5\Editor\UnityEditor.Advertisements.dll mtoken: 0x0a00000f due to:  assembly:C:\Program Files\Unity 2020.3.24f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll type:UnityAPICompatibilityVersionAttribute member:void {0}(string,string[]) signature:.ctor
+Mono: successfully reloaded assembly
+- Completed reload, in  4.175 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4176ms)
+		BeginReloadAssembly (350ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (15ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (77ms)
+		EndReloadAssembly (3254ms)
+			LoadAssemblies (446ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1007ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (142ms)
+			SetupLoadedEditorAssemblies (1332ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (558ms)
+				ProcessInitializeOnLoadAttributes (712ms)
+				ProcessInitializeOnLoadMethodAttributes (29ms)
+				AfterProcessingInitializeOnLoad (18ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.27 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2012 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.9 MB.
+System memory in use after: 91.0 MB.
+
+Unloading 40 unused Assets to reduce memory usage. Loaded Objects now: 2508.
+Total: 5.249000 ms (FindLiveObjects: 0.412900 ms CreateObjectMapping: 0.137800 ms MarkObjects: 4.649300 ms  DeleteObjects: 0.046400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.015146 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.94 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Can't find custom attr constructor image: C:\Users\Asus\RunRich3d\Library\PackageCache\com.unity.ads@3.4.5\Editor\UnityEditor.Advertisements.dll mtoken: 0x0a00000f due to:  assembly:C:\Program Files\Unity 2020.3.24f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll type:UnityAPICompatibilityVersionAttribute member:void {0}(string,string[]) signature:.ctor
+Mono: successfully reloaded assembly
+- Completed reload, in  2.208 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2209ms)
+		BeginReloadAssembly (266ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (122ms)
+		EndReloadAssembly (1787ms)
+			LoadAssemblies (173ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (661ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (72ms)
+			SetupLoadedEditorAssemblies (678ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (232ms)
+				ProcessInitializeOnLoadAttributes (401ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (14ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.02 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2012 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.9 MB.
+System memory in use after: 91.0 MB.
+
+Unloading 40 unused Assets to reduce memory usage. Loaded Objects now: 2510.
+Total: 7.224500 ms (FindLiveObjects: 0.545500 ms CreateObjectMapping: 0.131200 ms MarkObjects: 6.495100 ms  DeleteObjects: 0.050200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.030260 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.91 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Can't find custom attr constructor image: C:\Users\Asus\RunRich3d\Library\PackageCache\com.unity.ads@3.4.5\Editor\UnityEditor.Advertisements.dll mtoken: 0x0a00000f due to:  assembly:C:\Program Files\Unity 2020.3.24f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll type:UnityAPICompatibilityVersionAttribute member:void {0}(string,string[]) signature:.ctor
+Mono: successfully reloaded assembly
+- Completed reload, in  1.934 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1935ms)
+		BeginReloadAssembly (188ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (47ms)
+		EndReloadAssembly (1612ms)
+			LoadAssemblies (172ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (592ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (72ms)
+			SetupLoadedEditorAssemblies (606ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (199ms)
+				ProcessInitializeOnLoadAttributes (363ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (13ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.06 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2012 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.9 MB.
+System memory in use after: 91.0 MB.
+
+Unloading 40 unused Assets to reduce memory usage. Loaded Objects now: 2512.
+Total: 4.534800 ms (FindLiveObjects: 0.316200 ms CreateObjectMapping: 0.210700 ms MarkObjects: 3.966500 ms  DeleteObjects: 0.039500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.021164 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.66 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Can't find custom attr constructor image: C:\Users\Asus\RunRich3d\Library\PackageCache\com.unity.ads@3.4.5\Editor\UnityEditor.Advertisements.dll mtoken: 0x0a00000f due to:  assembly:C:\Program Files\Unity 2020.3.24f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll type:UnityAPICompatibilityVersionAttribute member:void {0}(string,string[]) signature:.ctor
+Mono: successfully reloaded assembly
+- Completed reload, in  3.709 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3710ms)
+		BeginReloadAssembly (206ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (13ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (46ms)
+		EndReloadAssembly (3384ms)
+			LoadAssemblies (199ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (793ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (79ms)
+			SetupLoadedEditorAssemblies (2011ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (171ms)
+				ProcessInitializeOnLoadAttributes (1777ms)
+				ProcessInitializeOnLoadMethodAttributes (34ms)
+				AfterProcessingInitializeOnLoad (18ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (34ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.98 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2012 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.9 MB.
+System memory in use after: 91.0 MB.
+
+Unloading 40 unused Assets to reduce memory usage. Loaded Objects now: 2514.
+Total: 3.973500 ms (FindLiveObjects: 0.211200 ms CreateObjectMapping: 0.108700 ms MarkObjects: 3.613900 ms  DeleteObjects: 0.037900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.018139 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.07 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Can't find custom attr constructor image: C:\Users\Asus\RunRich3d\Library\PackageCache\com.unity.ads@3.4.5\Editor\UnityEditor.Advertisements.dll mtoken: 0x0a00000f due to:  assembly:C:\Program Files\Unity 2020.3.24f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll type:UnityAPICompatibilityVersionAttribute member:void {0}(string,string[]) signature:.ctor
+Mono: successfully reloaded assembly
+- Completed reload, in  1.997 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1998ms)
+		BeginReloadAssembly (213ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (18ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (55ms)
+		EndReloadAssembly (1638ms)
+			LoadAssemblies (199ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (680ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (73ms)
+			SetupLoadedEditorAssemblies (526ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (166ms)
+				ProcessInitializeOnLoadAttributes (314ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (15ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.99 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2012 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.9 MB.
+System memory in use after: 91.0 MB.
+
+Unloading 40 unused Assets to reduce memory usage. Loaded Objects now: 2516.
+Total: 4.288400 ms (FindLiveObjects: 0.218100 ms CreateObjectMapping: 0.099700 ms MarkObjects: 3.933100 ms  DeleteObjects: 0.035600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.015797 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.06 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Can't find custom attr constructor image: C:\Users\Asus\RunRich3d\Library\PackageCache\com.unity.ads@3.4.5\Editor\UnityEditor.Advertisements.dll mtoken: 0x0a00000f due to:  assembly:C:\Program Files\Unity 2020.3.24f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll type:UnityAPICompatibilityVersionAttribute member:void {0}(string,string[]) signature:.ctor
+Mono: successfully reloaded assembly
+- Completed reload, in  1.869 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1869ms)
+		BeginReloadAssembly (182ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (49ms)
+		EndReloadAssembly (1563ms)
+			LoadAssemblies (169ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (525ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (71ms)
+			SetupLoadedEditorAssemblies (601ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (210ms)
+				ProcessInitializeOnLoadAttributes (344ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (16ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.06 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2012 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.9 MB.
+System memory in use after: 91.0 MB.
+
+Unloading 40 unused Assets to reduce memory usage. Loaded Objects now: 2518.
+Total: 4.138000 ms (FindLiveObjects: 0.220500 ms CreateObjectMapping: 0.112300 ms MarkObjects: 3.756300 ms  DeleteObjects: 0.046700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.077055 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 3.42 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Can't find custom attr constructor image: C:\Users\Asus\RunRich3d\Library\PackageCache\com.unity.ads@3.4.5\Editor\UnityEditor.Advertisements.dll mtoken: 0x0a00000f due to:  assembly:C:\Program Files\Unity 2020.3.24f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll type:UnityAPICompatibilityVersionAttribute member:void {0}(string,string[]) signature:.ctor
+Mono: successfully reloaded assembly
+- Completed reload, in  3.800 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3802ms)
+		BeginReloadAssembly (706ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (32ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (116ms)
+		EndReloadAssembly (2836ms)
+			LoadAssemblies (684ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1169ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (118ms)
+			SetupLoadedEditorAssemblies (897ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (4ms)
+				BeforeProcessingInitializeOnLoad (288ms)
+				ProcessInitializeOnLoadAttributes (548ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
+				AfterProcessingInitializeOnLoad (16ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.36 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2012 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.9 MB.
+System memory in use after: 91.0 MB.
+
+Unloading 40 unused Assets to reduce memory usage. Loaded Objects now: 2520.
+Total: 5.625300 ms (FindLiveObjects: 0.349500 ms CreateObjectMapping: 0.229400 ms MarkObjects: 4.999000 ms  DeleteObjects: 0.044800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1165.370760 seconds.
+  path: Assets/Player
+  artifactKey: Guid(2e5a0ee3762438e46a41836639efe26a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player using Guid(2e5a0ee3762438e46a41836639efe26a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d847a3eeb8311c88feaa12cbcd7b95d') in 0.020681 seconds 
+  Import took 0.032317 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 85.591226 seconds.
+  path: Assets/Player/New Animator Controller.controller
+  artifactKey: Guid(f7adc895987f60f45a1b007aed8492a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player/New Animator Controller.controller using Guid(f7adc895987f60f45a1b007aed8492a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a96c00cf3e8c5463ca4bc027fda5b3c') in 0.086905 seconds 
+  Import took 0.096714 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.928068 seconds.
+  path: Assets/Player/Back.controller
+  artifactKey: Guid(f7adc895987f60f45a1b007aed8492a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player/Back.controller using Guid(f7adc895987f60f45a1b007aed8492a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51cae56d5374e32973edd15972572944') in 0.018169 seconds 
+  Import took 0.026035 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.016526 seconds.
+  path: Assets/Player/BackSplash.controller
+  artifactKey: Guid(f7adc895987f60f45a1b007aed8492a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player/BackSplash.controller using Guid(f7adc895987f60f45a1b007aed8492a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e37b505c9d44245839430596765c8a13') in 0.025023 seconds 
+  Import took 0.033121 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 315.475324 seconds.
+  path: Assets/Player/Player.controller
+  artifactKey: Guid(6aeffe15126c7464ca58b5fe76a0ea9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player/Player.controller using Guid(6aeffe15126c7464ca58b5fe76a0ea9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '154bbdc8cabbf090aedb692345b678f7') in 0.010022 seconds 
+  Import took 0.018669 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.029901 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.12 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Can't find custom attr constructor image: C:\Users\Asus\RunRich3d\Library\PackageCache\com.unity.ads@3.4.5\Editor\UnityEditor.Advertisements.dll mtoken: 0x0a00000f due to:  assembly:C:\Program Files\Unity 2020.3.24f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll type:UnityAPICompatibilityVersionAttribute member:void {0}(string,string[]) signature:.ctor
+Mono: successfully reloaded assembly
+- Completed reload, in  2.664 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2665ms)
+		BeginReloadAssembly (397ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (17ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (105ms)
+		EndReloadAssembly (2046ms)
+			LoadAssemblies (303ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (789ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (100ms)
+			SetupLoadedEditorAssemblies (700ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (211ms)
+				ProcessInitializeOnLoadAttributes (428ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
+				AfterProcessingInitializeOnLoad (15ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.04 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2012 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.9 MB.
+System memory in use after: 91.1 MB.
+
+Unloading 40 unused Assets to reduce memory usage. Loaded Objects now: 2522.
+Total: 4.990300 ms (FindLiveObjects: 0.697400 ms CreateObjectMapping: 0.176400 ms MarkObjects: 3.947500 ms  DeleteObjects: 0.166600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.021734 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.03 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Can't find custom attr constructor image: C:\Users\Asus\RunRich3d\Library\PackageCache\com.unity.ads@3.4.5\Editor\UnityEditor.Advertisements.dll mtoken: 0x0a00000f due to:  assembly:C:\Program Files\Unity 2020.3.24f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll type:UnityAPICompatibilityVersionAttribute member:void {0}(string,string[]) signature:.ctor
+Mono: successfully reloaded assembly
+- Completed reload, in  2.684 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2685ms)
+		BeginReloadAssembly (298ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (16ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (81ms)
+		EndReloadAssembly (2184ms)
+			LoadAssemblies (312ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (809ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (110ms)
+			SetupLoadedEditorAssemblies (724ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (263ms)
+				ProcessInitializeOnLoadAttributes (407ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
+				AfterProcessingInitializeOnLoad (17ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.65 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2012 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.9 MB.
+System memory in use after: 91.1 MB.
+
+Unloading 40 unused Assets to reduce memory usage. Loaded Objects now: 2524.
+Total: 5.037600 ms (FindLiveObjects: 0.236500 ms CreateObjectMapping: 0.106800 ms MarkObjects: 4.637300 ms  DeleteObjects: 0.055000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.024369 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.97 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Can't find custom attr constructor image: C:\Users\Asus\RunRich3d\Library\PackageCache\com.unity.ads@3.4.5\Editor\UnityEditor.Advertisements.dll mtoken: 0x0a00000f due to:  assembly:C:\Program Files\Unity 2020.3.24f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll type:UnityAPICompatibilityVersionAttribute member:void {0}(string,string[]) signature:.ctor
+Mono: successfully reloaded assembly
+- Completed reload, in  1.685 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1686ms)
+		BeginReloadAssembly (172ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (46ms)
+		EndReloadAssembly (1405ms)
+			LoadAssemblies (193ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (457ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (78ms)
+			SetupLoadedEditorAssemblies (515ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (174ms)
+				ProcessInitializeOnLoadAttributes (297ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (15ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.02 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2012 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 91.0 MB.
+System memory in use after: 91.1 MB.
+
+Unloading 40 unused Assets to reduce memory usage. Loaded Objects now: 2526.
+Total: 4.048200 ms (FindLiveObjects: 0.220300 ms CreateObjectMapping: 0.099400 ms MarkObjects: 3.689700 ms  DeleteObjects: 0.036400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 914.036837 seconds.
+  path: Assets/Player/BackSplash.anim
+  artifactKey: Guid(5f250da6f3ca24d44b99bef405f00130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player/BackSplash.anim using Guid(5f250da6f3ca24d44b99bef405f00130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31e78980fa8bfecdf943389d7836a7c4') in 0.106973 seconds 
+  Import took 0.115461 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 39.407097 seconds.
+  path: Assets/Player/New Animation.anim
+  artifactKey: Guid(58d6053dae1cff74b80b5f0e953ceb4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player/New Animation.anim using Guid(58d6053dae1cff74b80b5f0e953ceb4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d47f10f5777a268a5b7bdd4b9b2a840') in 0.021325 seconds 
+  Import took 0.030078 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.024663 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 3.34 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Can't find custom attr constructor image: C:\Users\Asus\RunRich3d\Library\PackageCache\com.unity.ads@3.4.5\Editor\UnityEditor.Advertisements.dll mtoken: 0x0a00000f due to:  assembly:C:\Program Files\Unity 2020.3.24f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll type:UnityAPICompatibilityVersionAttribute member:void {0}(string,string[]) signature:.ctor
+Mono: successfully reloaded assembly
+- Completed reload, in  4.049 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4050ms)
+		BeginReloadAssembly (223ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (13ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (57ms)
+		EndReloadAssembly (3219ms)
+			LoadAssemblies (229ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1119ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (158ms)
+			SetupLoadedEditorAssemblies (1039ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (39ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (4ms)
+				BeforeProcessingInitializeOnLoad (421ms)
+				ProcessInitializeOnLoadAttributes (534ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (18ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (29ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.25 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2012 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 91.0 MB.
+System memory in use after: 91.1 MB.
+
+Unloading 40 unused Assets to reduce memory usage. Loaded Objects now: 2528.
+Total: 13.215900 ms (FindLiveObjects: 0.601400 ms CreateObjectMapping: 0.208000 ms MarkObjects: 12.165900 ms  DeleteObjects: 0.237900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.026228 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.96 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Can't find custom attr constructor image: C:\Users\Asus\RunRich3d\Library\PackageCache\com.unity.ads@3.4.5\Editor\UnityEditor.Advertisements.dll mtoken: 0x0a00000f due to:  assembly:C:\Program Files\Unity 2020.3.24f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll type:UnityAPICompatibilityVersionAttribute member:void {0}(string,string[]) signature:.ctor
+Mono: successfully reloaded assembly
+- Completed reload, in  1.965 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1966ms)
+		BeginReloadAssembly (211ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (52ms)
+		EndReloadAssembly (1601ms)
+			LoadAssemblies (208ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (657ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (75ms)
+			SetupLoadedEditorAssemblies (502ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (161ms)
+				ProcessInitializeOnLoadAttributes (298ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (15ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.04 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2012 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 91.0 MB.
+System memory in use after: 91.1 MB.
+
+Unloading 40 unused Assets to reduce memory usage. Loaded Objects now: 2530.
+Total: 5.123800 ms (FindLiveObjects: 0.291400 ms CreateObjectMapping: 0.196200 ms MarkObjects: 4.593700 ms  DeleteObjects: 0.040400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.023090 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.12 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Can't find custom attr constructor image: C:\Users\Asus\RunRich3d\Library\PackageCache\com.unity.ads@3.4.5\Editor\UnityEditor.Advertisements.dll mtoken: 0x0a00000f due to:  assembly:C:\Program Files\Unity 2020.3.24f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll type:UnityAPICompatibilityVersionAttribute member:void {0}(string,string[]) signature:.ctor
+Mono: successfully reloaded assembly
+- Completed reload, in  2.358 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2359ms)
+		BeginReloadAssembly (223ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (13ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (73ms)
+		EndReloadAssembly (1977ms)
+			LoadAssemblies (195ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (682ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (100ms)
+			SetupLoadedEditorAssemblies (743ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (218ms)
+				ProcessInitializeOnLoadAttributes (456ms)
+				ProcessInitializeOnLoadMethodAttributes (37ms)
+				AfterProcessingInitializeOnLoad (19ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (18ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.15 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2012 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 91.0 MB.
+System memory in use after: 91.1 MB.
+
+Unloading 40 unused Assets to reduce memory usage. Loaded Objects now: 2532.
+Total: 5.339300 ms (FindLiveObjects: 0.303100 ms CreateObjectMapping: 0.224500 ms MarkObjects: 4.756500 ms  DeleteObjects: 0.053200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 214.523790 seconds.
+  path: Assets/PreFab/WineSplash 1.prefab
+  artifactKey: Guid(1b33095feb458ce43b228b812b2db966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PreFab/WineSplash 1.prefab using Guid(1b33095feb458ce43b228b812b2db966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11c2ad6694bd035e9f512522d4dd7ca4') in 0.251038 seconds 
+  Import took 0.257847 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.524304 seconds.
+  path: Assets/PreFab/EnemySplash.prefab
+  artifactKey: Guid(1b33095feb458ce43b228b812b2db966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PreFab/EnemySplash.prefab using Guid(1b33095feb458ce43b228b812b2db966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f5f7759f6c2a6c36c9a192c8dbe9c5d') in 0.071712 seconds 
+  Import took 0.078718 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.557871 seconds.
+  path: Assets/PreFab/EnemySplash.prefab
+  artifactKey: Guid(1b33095feb458ce43b228b812b2db966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PreFab/EnemySplash.prefab using Guid(1b33095feb458ce43b228b812b2db966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95454775c95f834c5b6c12ad06a82ce6') in 0.036733 seconds 
+  Import took 0.046380 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.033568 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.76 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Can't find custom attr constructor image: C:\Users\Asus\RunRich3d\Library\PackageCache\com.unity.ads@3.4.5\Editor\UnityEditor.Advertisements.dll mtoken: 0x0a00000f due to:  assembly:C:\Program Files\Unity 2020.3.24f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll type:UnityAPICompatibilityVersionAttribute member:void {0}(string,string[]) signature:.ctor
+Mono: successfully reloaded assembly
+- Completed reload, in  2.939 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2940ms)
+		BeginReloadAssembly (318ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (101ms)
+		EndReloadAssembly (2414ms)
+			LoadAssemblies (343ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (787ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (106ms)
+			SetupLoadedEditorAssemblies (850ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (319ms)
+				ProcessInitializeOnLoadAttributes (447ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
+				AfterProcessingInitializeOnLoad (44ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.87 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2012 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 91.0 MB.
+System memory in use after: 91.1 MB.
+
+Unloading 42 unused Assets to reduce memory usage. Loaded Objects now: 2535.
+Total: 5.033200 ms (FindLiveObjects: 0.309400 ms CreateObjectMapping: 0.209700 ms MarkObjects: 4.413800 ms  DeleteObjects: 0.098100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.017989 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.99 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Can't find custom attr constructor image: C:\Users\Asus\RunRich3d\Library\PackageCache\com.unity.ads@3.4.5\Editor\UnityEditor.Advertisements.dll mtoken: 0x0a00000f due to:  assembly:C:\Program Files\Unity 2020.3.24f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll type:UnityAPICompatibilityVersionAttribute member:void {0}(string,string[]) signature:.ctor
+Mono: successfully reloaded assembly
+- Completed reload, in  2.140 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2141ms)
+		BeginReloadAssembly (200ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (58ms)
+		EndReloadAssembly (1798ms)
+			LoadAssemblies (187ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (634ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (95ms)
+			SetupLoadedEditorAssemblies (630ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (189ms)
+				ProcessInitializeOnLoadAttributes (390ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
+				AfterProcessingInitializeOnLoad (15ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2012 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 91.0 MB.
+System memory in use after: 91.2 MB.
+
+Unloading 40 unused Assets to reduce memory usage. Loaded Objects now: 2537.
+Total: 8.602100 ms (FindLiveObjects: 1.339300 ms CreateObjectMapping: 0.307100 ms MarkObjects: 6.897100 ms  DeleteObjects: 0.055100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.027692 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.67 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Can't find custom attr constructor image: C:\Users\Asus\RunRich3d\Library\PackageCache\com.unity.ads@3.4.5\Editor\UnityEditor.Advertisements.dll mtoken: 0x0a00000f due to:  assembly:C:\Program Files\Unity 2020.3.24f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll type:UnityAPICompatibilityVersionAttribute member:void {0}(string,string[]) signature:.ctor
+Mono: successfully reloaded assembly
+- Completed reload, in  3.313 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3313ms)
+		BeginReloadAssembly (416ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (18ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (126ms)
+		EndReloadAssembly (2682ms)
+			LoadAssemblies (369ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1234ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (122ms)
+			SetupLoadedEditorAssemblies (723ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (237ms)
+				ProcessInitializeOnLoadAttributes (410ms)
+				ProcessInitializeOnLoadMethodAttributes (45ms)
+				AfterProcessingInitializeOnLoad (18ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (19ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.96 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2012 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 91.0 MB.
+System memory in use after: 91.2 MB.
+
+Unloading 40 unused Assets to reduce memory usage. Loaded Objects now: 2539.
+Total: 9.688200 ms (FindLiveObjects: 0.620500 ms CreateObjectMapping: 0.278000 ms MarkObjects: 8.722900 ms  DeleteObjects: 0.063800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.020746 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.09 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Can't find custom attr constructor image: C:\Users\Asus\RunRich3d\Library\PackageCache\com.unity.ads@3.4.5\Editor\UnityEditor.Advertisements.dll mtoken: 0x0a00000f due to:  assembly:C:\Program Files\Unity 2020.3.24f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll type:UnityAPICompatibilityVersionAttribute member:void {0}(string,string[]) signature:.ctor
+Mono: successfully reloaded assembly
+- Completed reload, in  1.828 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1829ms)
+		BeginReloadAssembly (184ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (48ms)
+		EndReloadAssembly (1526ms)
+			LoadAssemblies (160ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (529ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (76ms)
+			SetupLoadedEditorAssemblies (594ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (205ms)
+				ProcessInitializeOnLoadAttributes (344ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (14ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.97 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2012 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 91.0 MB.
+System memory in use after: 91.2 MB.
+
+Unloading 40 unused Assets to reduce memory usage. Loaded Objects now: 2541.
+Total: 4.652900 ms (FindLiveObjects: 0.224200 ms CreateObjectMapping: 0.098400 ms MarkObjects: 4.277700 ms  DeleteObjects: 0.050500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.030304 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.14 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Can't find custom attr constructor image: C:\Users\Asus\RunRich3d\Library\PackageCache\com.unity.ads@3.4.5\Editor\UnityEditor.Advertisements.dll mtoken: 0x0a00000f due to:  assembly:C:\Program Files\Unity 2020.3.24f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll type:UnityAPICompatibilityVersionAttribute member:void {0}(string,string[]) signature:.ctor
+Mono: successfully reloaded assembly
+- Completed reload, in  2.864 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2864ms)
+		BeginReloadAssembly (269ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (13ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (76ms)
+		EndReloadAssembly (2360ms)
+			LoadAssemblies (249ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (927ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (147ms)
+			SetupLoadedEditorAssemblies (782ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (243ms)
+				ProcessInitializeOnLoadAttributes (430ms)
+				ProcessInitializeOnLoadMethodAttributes (67ms)
+				AfterProcessingInitializeOnLoad (30ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (17ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.64 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2012 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 91.0 MB.
+System memory in use after: 91.2 MB.
+
+Unloading 40 unused Assets to reduce memory usage. Loaded Objects now: 2543.
+Total: 7.553300 ms (FindLiveObjects: 0.649400 ms CreateObjectMapping: 0.227900 ms MarkObjects: 6.609800 ms  DeleteObjects: 0.063600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.031600 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.75 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Can't find custom attr constructor image: C:\Users\Asus\RunRich3d\Library\PackageCache\com.unity.ads@3.4.5\Editor\UnityEditor.Advertisements.dll mtoken: 0x0a00000f due to:  assembly:C:\Program Files\Unity 2020.3.24f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll type:UnityAPICompatibilityVersionAttribute member:void {0}(string,string[]) signature:.ctor
+Mono: successfully reloaded assembly
+- Completed reload, in  2.171 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2174ms)
+		BeginReloadAssembly (272ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (32ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (59ms)
+		EndReloadAssembly (1676ms)
+			LoadAssemblies (253ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (578ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (74ms)
+			SetupLoadedEditorAssemblies (586ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (176ms)
+				ProcessInitializeOnLoadAttributes (364ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (13ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.13 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2012 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 91.1 MB.
+System memory in use after: 91.2 MB.
+
+Unloading 40 unused Assets to reduce memory usage. Loaded Objects now: 2545.
+Total: 11.812000 ms (FindLiveObjects: 0.541400 ms CreateObjectMapping: 0.181700 ms MarkObjects: 10.960000 ms  DeleteObjects: 0.125800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.024786 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.98 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Can't find custom attr constructor image: C:\Users\Asus\RunRich3d\Library\PackageCache\com.unity.ads@3.4.5\Editor\UnityEditor.Advertisements.dll mtoken: 0x0a00000f due to:  assembly:C:\Program Files\Unity 2020.3.24f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll type:UnityAPICompatibilityVersionAttribute member:void {0}(string,string[]) signature:.ctor
+Mono: successfully reloaded assembly
+- Completed reload, in  2.517 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2518ms)
+		BeginReloadAssembly (527ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (21ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (145ms)
+		EndReloadAssembly (1833ms)
+			LoadAssemblies (284ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (671ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (88ms)
+			SetupLoadedEditorAssemblies (654ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (226ms)
+				ProcessInitializeOnLoadAttributes (381ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+				AfterProcessingInitializeOnLoad (14ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.01 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2012 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 91.1 MB.
+System memory in use after: 91.2 MB.
+
+Unloading 40 unused Assets to reduce memory usage. Loaded Objects now: 2547.
+Total: 8.229600 ms (FindLiveObjects: 0.953300 ms CreateObjectMapping: 0.447500 ms MarkObjects: 6.749500 ms  DeleteObjects: 0.076400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.061787 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.82 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Can't find custom attr constructor image: C:\Users\Asus\RunRich3d\Library\PackageCache\com.unity.ads@3.4.5\Editor\UnityEditor.Advertisements.dll mtoken: 0x0a00000f due to:  assembly:C:\Program Files\Unity 2020.3.24f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll type:UnityAPICompatibilityVersionAttribute member:void {0}(string,string[]) signature:.ctor
+Mono: successfully reloaded assembly
+- Completed reload, in  2.837 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2838ms)
+		BeginReloadAssembly (270ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (15ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (81ms)
+		EndReloadAssembly (2359ms)
+			LoadAssemblies (273ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (938ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (88ms)
+			SetupLoadedEditorAssemblies (778ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (237ms)
+				ProcessInitializeOnLoadAttributes (469ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
+				AfterProcessingInitializeOnLoad (26ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (19ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.10 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2012 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 91.1 MB.
+System memory in use after: 91.2 MB.
+
+Unloading 40 unused Assets to reduce memory usage. Loaded Objects now: 2549.
+Total: 7.039500 ms (FindLiveObjects: 0.384800 ms CreateObjectMapping: 0.308200 ms MarkObjects: 6.272300 ms  DeleteObjects: 0.071400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.015289 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.12 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Can't find custom attr constructor image: C:\Users\Asus\RunRich3d\Library\PackageCache\com.unity.ads@3.4.5\Editor\UnityEditor.Advertisements.dll mtoken: 0x0a00000f due to:  assembly:C:\Program Files\Unity 2020.3.24f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll type:UnityAPICompatibilityVersionAttribute member:void {0}(string,string[]) signature:.ctor
+Mono: successfully reloaded assembly
+- Completed reload, in  1.786 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1787ms)
+		BeginReloadAssembly (185ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (13ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (45ms)
+		EndReloadAssembly (1486ms)
+			LoadAssemblies (174ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (501ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (73ms)
+			SetupLoadedEditorAssemblies (552ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (177ms)
+				ProcessInitializeOnLoadAttributes (331ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (13ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.97 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2012 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 91.1 MB.
+System memory in use after: 91.2 MB.
+
+Unloading 40 unused Assets to reduce memory usage. Loaded Objects now: 2551.
+Total: 4.527100 ms (FindLiveObjects: 0.297300 ms CreateObjectMapping: 0.199700 ms MarkObjects: 3.989700 ms  DeleteObjects: 0.038900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2207.034211 seconds.
+  path: Assets/PreFab/Player.prefab
+  artifactKey: Guid(b563c9b1005935d43ac63c303d6de3f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PreFab/Player.prefab using Guid(b563c9b1005935d43ac63c303d6de3f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6ef5d9625428ecf2c2a105142e4da16') in 0.168889 seconds 
+  Import took 0.178519 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.962701 seconds.
+  path: Assets/Script/LevelManager.cs
+  artifactKey: Guid(7b2c312d163f70c4f9b7de193f75c4d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/LevelManager.cs using Guid(7b2c312d163f70c4f9b7de193f75c4d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e86e5a561a7f94f2429588916c2e5319') in 0.053285 seconds 
+  Import took 0.065159 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.020743 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.02 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Can't find custom attr constructor image: C:\Users\Asus\RunRich3d\Library\PackageCache\com.unity.ads@3.4.5\Editor\UnityEditor.Advertisements.dll mtoken: 0x0a00000f due to:  assembly:C:\Program Files\Unity 2020.3.24f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll type:UnityAPICompatibilityVersionAttribute member:void {0}(string,string[]) signature:.ctor
+Mono: successfully reloaded assembly
+- Completed reload, in  2.132 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2133ms)
+		BeginReloadAssembly (216ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (53ms)
+		EndReloadAssembly (1765ms)
+			LoadAssemblies (225ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (658ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (83ms)
+			SetupLoadedEditorAssemblies (598ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (198ms)
+				ProcessInitializeOnLoadAttributes (357ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
+				AfterProcessingInitializeOnLoad (14ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.93 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2013 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 91.1 MB.
+System memory in use after: 91.3 MB.
+
+Unloading 40 unused Assets to reduce memory usage. Loaded Objects now: 2557.
+Total: 4.667500 ms (FindLiveObjects: 0.226300 ms CreateObjectMapping: 0.098100 ms MarkObjects: 4.300400 ms  DeleteObjects: 0.040800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 252.303582 seconds.
+  path: Assets/Script/LevelManager.cs
+  artifactKey: Guid(7b2c312d163f70c4f9b7de193f75c4d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/LevelManager.cs using Guid(7b2c312d163f70c4f9b7de193f75c4d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7733da671e5873b2d5d22863b0351447') in 0.026213 seconds 
+  Import took 0.048245 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.021694 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.96 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Can't find custom attr constructor image: C:\Users\Asus\RunRich3d\Library\PackageCache\com.unity.ads@3.4.5\Editor\UnityEditor.Advertisements.dll mtoken: 0x0a00000f due to:  assembly:C:\Program Files\Unity 2020.3.24f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll type:UnityAPICompatibilityVersionAttribute member:void {0}(string,string[]) signature:.ctor
+Mono: successfully reloaded assembly
+- Completed reload, in  1.903 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1904ms)
+		BeginReloadAssembly (207ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (60ms)
+		EndReloadAssembly (1522ms)
+			LoadAssemblies (187ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (590ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (68ms)
+			SetupLoadedEditorAssemblies (517ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (167ms)
+				ProcessInitializeOnLoadAttributes (307ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (14ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.98 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2013 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 91.1 MB.
+System memory in use after: 91.3 MB.
+
+Unloading 40 unused Assets to reduce memory usage. Loaded Objects now: 2559.
+Total: 4.040100 ms (FindLiveObjects: 0.233900 ms CreateObjectMapping: 0.101100 ms MarkObjects: 3.667300 ms  DeleteObjects: 0.036000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.017417 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.07 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Can't find custom attr constructor image: C:\Users\Asus\RunRich3d\Library\PackageCache\com.unity.ads@3.4.5\Editor\UnityEditor.Advertisements.dll mtoken: 0x0a00000f due to:  assembly:C:\Program Files\Unity 2020.3.24f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll type:UnityAPICompatibilityVersionAttribute member:void {0}(string,string[]) signature:.ctor
+Mono: successfully reloaded assembly
+- Completed reload, in  1.851 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1852ms)
+		BeginReloadAssembly (213ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (50ms)
+		EndReloadAssembly (1488ms)
+			LoadAssemblies (216ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (530ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (68ms)
+			SetupLoadedEditorAssemblies (518ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (170ms)
+				ProcessInitializeOnLoadAttributes (305ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (13ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.19 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2013 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 91.1 MB.
+System memory in use after: 91.3 MB.
+
+Unloading 40 unused Assets to reduce memory usage. Loaded Objects now: 2561.
+Total: 4.598500 ms (FindLiveObjects: 0.219800 ms CreateObjectMapping: 0.100400 ms MarkObjects: 4.233900 ms  DeleteObjects: 0.042400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.016474 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.97 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Can't find custom attr constructor image: C:\Users\Asus\RunRich3d\Library\PackageCache\com.unity.ads@3.4.5\Editor\UnityEditor.Advertisements.dll mtoken: 0x0a00000f due to:  assembly:C:\Program Files\Unity 2020.3.24f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll type:UnityAPICompatibilityVersionAttribute member:void {0}(string,string[]) signature:.ctor
+Mono: successfully reloaded assembly
+- Completed reload, in  2.178 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2179ms)
+		BeginReloadAssembly (218ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (13ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (63ms)
+		EndReloadAssembly (1799ms)
+			LoadAssemblies (223ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (616ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (115ms)
+			SetupLoadedEditorAssemblies (593ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (211ms)
+				ProcessInitializeOnLoadAttributes (334ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (14ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.19 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2013 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 91.2 MB.
+System memory in use after: 91.3 MB.
+
+Unloading 40 unused Assets to reduce memory usage. Loaded Objects now: 2563.
+Total: 4.901600 ms (FindLiveObjects: 0.221600 ms CreateObjectMapping: 0.098700 ms MarkObjects: 4.524600 ms  DeleteObjects: 0.054700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.022110 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.11 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Can't find custom attr constructor image: C:\Users\Asus\RunRich3d\Library\PackageCache\com.unity.ads@3.4.5\Editor\UnityEditor.Advertisements.dll mtoken: 0x0a00000f due to:  assembly:C:\Program Files\Unity 2020.3.24f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll type:UnityAPICompatibilityVersionAttribute member:void {0}(string,string[]) signature:.ctor
+Mono: successfully reloaded assembly
+- Completed reload, in  1.936 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1937ms)
+		BeginReloadAssembly (208ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (15ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (47ms)
+		EndReloadAssembly (1566ms)
+			LoadAssemblies (204ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (628ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (75ms)
+			SetupLoadedEditorAssemblies (494ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (161ms)
+				ProcessInitializeOnLoadAttributes (290ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
+				AfterProcessingInitializeOnLoad (14ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.20 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2013 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 91.2 MB.
+System memory in use after: 91.3 MB.
+
+Unloading 40 unused Assets to reduce memory usage. Loaded Objects now: 2565.
+Total: 4.228100 ms (FindLiveObjects: 0.217900 ms CreateObjectMapping: 0.101300 ms MarkObjects: 3.866200 ms  DeleteObjects: 0.040700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.022259 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.97 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Can't find custom attr constructor image: C:\Users\Asus\RunRich3d\Library\PackageCache\com.unity.ads@3.4.5\Editor\UnityEditor.Advertisements.dll mtoken: 0x0a00000f due to:  assembly:C:\Program Files\Unity 2020.3.24f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll type:UnityAPICompatibilityVersionAttribute member:void {0}(string,string[]) signature:.ctor
+Mono: successfully reloaded assembly
+- Completed reload, in  1.930 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1930ms)
+		BeginReloadAssembly (206ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (52ms)
+		EndReloadAssembly (1562ms)
+			LoadAssemblies (207ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (615ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (71ms)
+			SetupLoadedEditorAssemblies (521ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (166ms)
+				ProcessInitializeOnLoadAttributes (312ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (13ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.95 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2013 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 91.2 MB.
+System memory in use after: 91.3 MB.
+
+Unloading 40 unused Assets to reduce memory usage. Loaded Objects now: 2567.
+Total: 4.194200 ms (FindLiveObjects: 0.221200 ms CreateObjectMapping: 0.098800 ms MarkObjects: 3.832600 ms  DeleteObjects: 0.039800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.021626 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.81 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Can't find custom attr constructor image: C:\Users\Asus\RunRich3d\Library\PackageCache\com.unity.ads@3.4.5\Editor\UnityEditor.Advertisements.dll mtoken: 0x0a00000f due to:  assembly:C:\Program Files\Unity 2020.3.24f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll type:UnityAPICompatibilityVersionAttribute member:void {0}(string,string[]) signature:.ctor
+Mono: successfully reloaded assembly
+- Completed reload, in  2.306 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2307ms)
+		BeginReloadAssembly (253ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (83ms)
+		EndReloadAssembly (1890ms)
+			LoadAssemblies (243ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (642ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (131ms)
+			SetupLoadedEditorAssemblies (646ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (237ms)
+				ProcessInitializeOnLoadAttributes (358ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+				AfterProcessingInitializeOnLoad (15ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.56 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2013 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 91.2 MB.
+System memory in use after: 91.3 MB.
+
+Unloading 40 unused Assets to reduce memory usage. Loaded Objects now: 2569.
+Total: 4.678900 ms (FindLiveObjects: 0.234700 ms CreateObjectMapping: 0.101700 ms MarkObjects: 4.297800 ms  DeleteObjects: 0.042700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.039482 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.55 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Can't find custom attr constructor image: C:\Users\Asus\RunRich3d\Library\PackageCache\com.unity.ads@3.4.5\Editor\UnityEditor.Advertisements.dll mtoken: 0x0a00000f due to:  assembly:C:\Program Files\Unity 2020.3.24f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll type:UnityAPICompatibilityVersionAttribute member:void {0}(string,string[]) signature:.ctor
+Mono: successfully reloaded assembly
+- Completed reload, in  2.021 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2021ms)
+		BeginReloadAssembly (212ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (50ms)
+		EndReloadAssembly (1691ms)
+			LoadAssemblies (200ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (573ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (79ms)
+			SetupLoadedEditorAssemblies (631ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (186ms)
+				ProcessInitializeOnLoadAttributes (392ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
+				AfterProcessingInitializeOnLoad (14ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.02 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2013 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 91.2 MB.
+System memory in use after: 91.3 MB.
+
+Unloading 40 unused Assets to reduce memory usage. Loaded Objects now: 2571.
+Total: 4.262200 ms (FindLiveObjects: 0.399600 ms CreateObjectMapping: 0.108900 ms MarkObjects: 3.707300 ms  DeleteObjects: 0.044200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.019780 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.92 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Can't find custom attr constructor image: C:\Users\Asus\RunRich3d\Library\PackageCache\com.unity.ads@3.4.5\Editor\UnityEditor.Advertisements.dll mtoken: 0x0a00000f due to:  assembly:C:\Program Files\Unity 2020.3.24f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll type:UnityAPICompatibilityVersionAttribute member:void {0}(string,string[]) signature:.ctor
+Mono: successfully reloaded assembly
+- Completed reload, in  1.899 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1901ms)
+		BeginReloadAssembly (226ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (18ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (58ms)
+		EndReloadAssembly (1503ms)
+			LoadAssemblies (199ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (545ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (73ms)
+			SetupLoadedEditorAssemblies (513ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (171ms)
+				ProcessInitializeOnLoadAttributes (299ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (14ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.06 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2013 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 91.2 MB.
+System memory in use after: 91.3 MB.
+
+Unloading 40 unused Assets to reduce memory usage. Loaded Objects now: 2573.
+Total: 5.113000 ms (FindLiveObjects: 0.533500 ms CreateObjectMapping: 0.245300 ms MarkObjects: 4.287500 ms  DeleteObjects: 0.044100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.021895 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.02 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Can't find custom attr constructor image: C:\Users\Asus\RunRich3d\Library\PackageCache\com.unity.ads@3.4.5\Editor\UnityEditor.Advertisements.dll mtoken: 0x0a00000f due to:  assembly:C:\Program Files\Unity 2020.3.24f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll type:UnityAPICompatibilityVersionAttribute member:void {0}(string,string[]) signature:.ctor
+Mono: successfully reloaded assembly
+- Completed reload, in  2.752 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2752ms)
+		BeginReloadAssembly (270ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (19ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (70ms)
+		EndReloadAssembly (2286ms)
+			LoadAssemblies (274ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (927ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (95ms)
+			SetupLoadedEditorAssemblies (736ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (245ms)
+				ProcessInitializeOnLoadAttributes (432ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
+				AfterProcessingInitializeOnLoad (20ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.31 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2013 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 91.2 MB.
+System memory in use after: 91.3 MB.
+
+Unloading 40 unused Assets to reduce memory usage. Loaded Objects now: 2575.
+Total: 5.934200 ms (FindLiveObjects: 0.501500 ms CreateObjectMapping: 0.264300 ms MarkObjects: 5.105500 ms  DeleteObjects: 0.060900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.017656 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.13 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Can't find custom attr constructor image: C:\Users\Asus\RunRich3d\Library\PackageCache\com.unity.ads@3.4.5\Editor\UnityEditor.Advertisements.dll mtoken: 0x0a00000f due to:  assembly:C:\Program Files\Unity 2020.3.24f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll type:UnityAPICompatibilityVersionAttribute member:void {0}(string,string[]) signature:.ctor
+Mono: successfully reloaded assembly
+- Completed reload, in  1.967 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1968ms)
+		BeginReloadAssembly (220ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (24ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (55ms)
+		EndReloadAssembly (1610ms)
+			LoadAssemblies (202ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (652ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (84ms)
+			SetupLoadedEditorAssemblies (508ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (175ms)
+				ProcessInitializeOnLoadAttributes (289ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (13ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.27 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2013 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 91.2 MB.
+System memory in use after: 91.3 MB.
+
+Unloading 40 unused Assets to reduce memory usage. Loaded Objects now: 2577.
+Total: 4.005100 ms (FindLiveObjects: 0.230100 ms CreateObjectMapping: 0.100200 ms MarkObjects: 3.624300 ms  DeleteObjects: 0.048200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.018559 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.61 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Can't find custom attr constructor image: C:\Users\Asus\RunRich3d\Library\PackageCache\com.unity.ads@3.4.5\Editor\UnityEditor.Advertisements.dll mtoken: 0x0a00000f due to:  assembly:C:\Program Files\Unity 2020.3.24f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll type:UnityAPICompatibilityVersionAttribute member:void {0}(string,string[]) signature:.ctor
+Mono: successfully reloaded assembly
+- Completed reload, in  1.879 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1880ms)
+		BeginReloadAssembly (179ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (43ms)
+		EndReloadAssembly (1586ms)
+			LoadAssemblies (171ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (475ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (88ms)
+			SetupLoadedEditorAssemblies (588ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (199ms)
+				ProcessInitializeOnLoadAttributes (337ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (18ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.07 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2013 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 91.2 MB.
+System memory in use after: 91.3 MB.
+
+Unloading 40 unused Assets to reduce memory usage. Loaded Objects now: 2579.
+Total: 3.981100 ms (FindLiveObjects: 0.243600 ms CreateObjectMapping: 0.098000 ms MarkObjects: 3.598500 ms  DeleteObjects: 0.039300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.016824 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.96 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Can't find custom attr constructor image: C:\Users\Asus\RunRich3d\Library\PackageCache\com.unity.ads@3.4.5\Editor\UnityEditor.Advertisements.dll mtoken: 0x0a00000f due to:  assembly:C:\Program Files\Unity 2020.3.24f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll type:UnityAPICompatibilityVersionAttribute member:void {0}(string,string[]) signature:.ctor
+Mono: successfully reloaded assembly
+- Completed reload, in  2.444 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2446ms)
+		BeginReloadAssembly (273ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (29ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (84ms)
+		EndReloadAssembly (1961ms)
+			LoadAssemblies (211ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (855ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (79ms)
+			SetupLoadedEditorAssemblies (593ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (174ms)
+				ProcessInitializeOnLoadAttributes (373ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (14ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (17ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.01 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2013 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 91.2 MB.
+System memory in use after: 91.3 MB.
+
+Unloading 40 unused Assets to reduce memory usage. Loaded Objects now: 2581.
+Total: 4.047100 ms (FindLiveObjects: 0.248100 ms CreateObjectMapping: 0.101600 ms MarkObjects: 3.655600 ms  DeleteObjects: 0.039500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.025204 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.99 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Can't find custom attr constructor image: C:\Users\Asus\RunRich3d\Library\PackageCache\com.unity.ads@3.4.5\Editor\UnityEditor.Advertisements.dll mtoken: 0x0a00000f due to:  assembly:C:\Program Files\Unity 2020.3.24f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll type:UnityAPICompatibilityVersionAttribute member:void {0}(string,string[]) signature:.ctor
+Mono: successfully reloaded assembly
+- Completed reload, in  1.888 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1889ms)
+		BeginReloadAssembly (191ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (49ms)
+		EndReloadAssembly (1568ms)
+			LoadAssemblies (192ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (633ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (89ms)
+			SetupLoadedEditorAssemblies (491ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (164ms)
+				ProcessInitializeOnLoadAttributes (283ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (14ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.18 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2013 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 91.2 MB.
+System memory in use after: 91.3 MB.
+
+Unloading 40 unused Assets to reduce memory usage. Loaded Objects now: 2583.
+Total: 3.889400 ms (FindLiveObjects: 0.226300 ms CreateObjectMapping: 0.097700 ms MarkObjects: 3.526400 ms  DeleteObjects: 0.037500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.017071 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.94 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Can't find custom attr constructor image: C:\Users\Asus\RunRich3d\Library\PackageCache\com.unity.ads@3.4.5\Editor\UnityEditor.Advertisements.dll mtoken: 0x0a00000f due to:  assembly:C:\Program Files\Unity 2020.3.24f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll type:UnityAPICompatibilityVersionAttribute member:void {0}(string,string[]) signature:.ctor
+Mono: successfully reloaded assembly
+- Completed reload, in  4.868 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4869ms)
+		BeginReloadAssembly (278ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (53ms)
+		EndReloadAssembly (2373ms)
+			LoadAssemblies (291ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (826ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (88ms)
+			SetupLoadedEditorAssemblies (1062ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (270ms)
+				ProcessInitializeOnLoadAttributes (740ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
+				AfterProcessingInitializeOnLoad (14ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (20ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.09 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2013 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 91.2 MB.
+System memory in use after: 91.3 MB.
+
+Unloading 40 unused Assets to reduce memory usage. Loaded Objects now: 2585.
+Total: 4.297300 ms (FindLiveObjects: 0.231000 ms CreateObjectMapping: 0.104300 ms MarkObjects: 3.914200 ms  DeleteObjects: 0.046100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
